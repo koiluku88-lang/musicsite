@@ -1,3 +1,7 @@
+body {
+  cursor: url("kursorRED32.png"), pointer;
+}
+
 .heading {
     font-family: '40Degrees', sans-serif;
     font-size: xx-large;
