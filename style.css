@@ -1,0 +1,47 @@
+.heading {
+    font-family: '40Degrees', sans-serif;
+    font-size: xx-large;
+    
+}
+
+.beatboxcat {
+    border-radius: 100px;
+}
+
+
+
+/*                 TABELKA              */
+
+
+.tabela {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+td, th {
+  border: 1px solid #F7D6D0;
+  padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #FF9D9D;}
+tr:nth-child(even){background-color: #FFC5AA;}
+tr:hover {background-color: #EEF8CD;}
+
+.kategoria {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #CF4173;
+    color: white;
+}
+
+
+
+/*             IMPORT CZCIONKI          */
+
+
+
+@font-face {
+    font-family: '40Degrees';
+    src: url(fonts/Concept/40Degrees_W-NectarineSunset.woff2);
+}
